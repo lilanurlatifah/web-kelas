@@ -13,11 +13,11 @@
 <body>
 
   <!-- NAVIGATION -->
-   <nav class="navbar">
-  <div class="nav-logo">
-    <img src="img/logo.png" alt="Logo XI RPL" />
-    <span>XI RPL</span>
-  </div>
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="img/logo.png" alt="Logo XI RPL" />
+      <span>XI RPL</span>
+    </div>
     <ul class="nav-links">
       <li><a href="index.html">Beranda</a></li>
       <li><a href="data-siswa.html">Data Siswa</a></li>
@@ -28,121 +28,98 @@
     </ul>
   </nav>
 
-  <!-- Jadwal Pelajaran -->
-  <section id="jadwal" class="jadwal">
-    <h2>Jadwal Pelajaran XI RPL</h2>
+  <!-- JADWAL PELAJARAN -->
+  <section class="jadwal">
+    <h2>📘 Jadwal Pelajaran XI RPL</h2>
     <p class="keterangan-org">Berikut merupakan jadwal pelajaran kelas XI RPL SMKN Tambakboyo</p>
 
-    <table class="tabel-jadwal">
-      <thead>
-        <tr>
-          <th>Hari</th>
-          <th>Mata Pelajaran</th>
-          <th>Guru Pengajar</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Senin</td>
-          <td>Pjok, B. Inggris, Sejarah, PBO, BK, Pkn</td>
-          <td>Pak Noordin, Bu Fada, Bu Yuli, Bu Ika, Bu Yulia, Bu Ety</td>
-        </tr>
-        <tr>
-          <td>Selasa</td>
-          <td>PKK, PAI, Matematika, B. Indonesia</td>
-          <td>Bu Yuni, Pak Diin, Bu Tata, Bu Mira</td>
-        </tr>
-        <tr>
-          <td>Rabu</td>
-          <td>B Jawa, B Inggris, Data Base, PKK</td>
-          <td>Bu Tika, Bu Fada, Pak Arno, Bu Yuni</td>
-        </tr>
-        <tr>
-          <td>Kamis</td>
-          <td>PBO, Web</td>
-          <td>Bu Ika, Pak Nuril</td>
-        </tr>
-        <tr>
-          <td>Jumat</td>
-          <td>PBO, AI</td>
-          <td>Bu Ika, Pak Arno</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="jadwal-container">
+      <!-- Senin -->
+      <div class="hari-box">
+        <h3>Senin</h3>
+        <table>
+          <tr><th>Mata Pelajaran</th><th>Guru Pengajar</th></tr>
+          <tr><td>PJOK</td><td>Pak Noordin</td></tr>
+          <tr><td>B. Inggris</td><td>Bu Fada</td></tr>
+          <tr><td>Sejarah</td><td>Bu Yuli</td></tr>
+          <tr><td>PBO</td><td>Bu Ika</td></tr>
+          <tr><td>BK</td><td>Bu Yulia</td></tr>
+          <tr><td>PKN</td><td>Bu Ety</td></tr>
+        </table>
+      </div>
+
+      <!-- Selasa -->
+      <div class="hari-box">
+        <h3>Selasa</h3>
+        <table>
+          <tr><th>Mata Pelajaran</th><th>Guru Pengajar</th></tr>
+          <tr><td>PKK</td><td>Bu Yuni</td></tr>
+          <tr><td>PAI</td><td>Pak Diin</td></tr>
+          <tr><td>Matematika</td><td>Bu Tata</td></tr>
+          <tr><td>B. Indonesia</td><td>Bu Mira</td></tr>
+        </table>
+      </div>
+
+      <!-- Rabu -->
+      <div class="hari-box">
+        <h3>Rabu</h3>
+        <table>
+          <tr><th>Mata Pelajaran</th><th>Guru Pengajar</th></tr>
+          <tr><td>B. Jawa</td><td>Bu Tika</td></tr>
+          <tr><td>B. Inggris</td><td>Bu Fada</td></tr>
+          <tr><td>Database</td><td>Pak Arno</td></tr>
+          <tr><td>PKK</td><td>Bu Yuni</td></tr>
+        </table>
+      </div>
+
+      <!-- Kamis -->
+      <div class="hari-box">
+        <h3>Kamis</h3>
+        <table>
+          <tr><th>Mata Pelajaran</th><th>Guru Pengajar</th></tr>
+          <tr><td>PBO</td><td>Bu Ika</td></tr>
+          <tr><td>Web</td><td>Pak Nuril</td></tr>
+        </table>
+      </div>
+
+      <!-- Jumat -->
+      <div class="hari-box">
+        <h3>Jumat</h3>
+        <table>
+          <tr><th>Mata Pelajaran</th><th>Guru Pengajar</th></tr>
+          <tr><td>PBO</td><td>Bu Ika</td></tr>
+          <tr><td>AI</td><td>Pak Arno</td></tr>
+        </table>
+      </div>
+    </div>
   </section>
 
-  <!-- Jadwal Piket -->
+  <!-- JADWAL PIKET -->
   <section class="jadwal-piket">
-    <h2>Jadwal Piket Kelas XI RPL</h2>
-
+    <h2>🧹 Jadwal Piket Kelas XI RPL</h2>
     <div class="piket-container">
       <div class="hari-card">
         <h3>Senin</h3>
-        <ul>
-          <li>Aisyah</li>
-          <li>Aulia</li>
-          <li>Safa</li>
-          <li>Putri</li>
-          <li>Dini</li>
-          <li>Rafael</li>
-          <li>Aan</li>
-        </ul>
+        <ul><li>Aisyah</li><li>Aulia</li><li>Safa</li><li>Putri</li><li>Dini</li><li>Rafael</li><li>Aan</li></ul>
       </div>
-
       <div class="hari-card">
         <h3>Selasa</h3>
-        <ul>
-          <li>Kirana</li>
-          <li>Kusnul</li>
-          <li>Lila</li>
-          <li>Ika</li>
-          <li>Risma</li>
-          <li>Andika</li>
-          <li>Machfudz</li>
-        </ul>
+        <ul><li>Kirana</li><li>Kusnul</li><li>Lila</li><li>Ika</li><li>Risma</li><li>Andika</li><li>Machfudz</li></ul>
       </div>
-
       <div class="hari-card">
         <h3>Rabu</h3>
-        <ul>
-          <li>Novita</li>
-          <li>Arin</li>
-          <li>Silvi</li>
-          <li>Diva</li>
-          <li>Aurel</li>
-          <li>Idar</li>
-          <li>Khasan</li>
-        </ul>
+        <ul><li>Novita</li><li>Arin</li><li>Silvi</li><li>Diva</li><li>Aurel</li><li>Idar</li><li>Khasan</li></ul>
       </div>
-
       <div class="hari-card">
         <h3>Kamis</h3>
-        <ul>
-          <li>Renatha</li>
-          <li>Charissa</li>
-          <li>Dinda</li>
-          <li>Eka</li>
-          <li>Tiara</li>
-          <li>Supri</li>
-          <li>Aga</li>
-        </ul>
+        <ul><li>Renatha</li><li>Charissa</li><li>Dinda</li><li>Eka</li><li>Tiara</li><li>Supri</li><li>Aga</li></ul>
       </div>
-
       <div class="hari-card">
         <h3>Jumat</h3>
-        <ul>
-          <li>Nurya</li>
-          <li>Marsha</li>
-          <li>Datul</li>
-          <li>Astuti</li>
-          <li>Nisya</li>
-          <li>Anita</li>
-          <li>Lukman</li>
-        </ul>
+        <ul><li>Nurya</li><li>Marsha</li><li>Datul</li><li>Astuti</li><li>Nisya</li><li>Anita</li><li>Lukman</li></ul>
       </div>
     </div>
-
-    <p class="note">🧹 Kebersihan adalah sebagian dari iman, maka jagalah kebersihan!</p>
+    <p class="note">✨ Kebersihan adalah sebagian dari iman, maka jagalah kebersihan!</p>
   </section>
 
   <footer>
